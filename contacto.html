@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto | Oliver Lugo Studio</title>
+  <meta name="description" content="Contacta a Oliver Lugo para proyectos de diseño gráfico, branding, packaging, landing pages y dirección visual.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="progress-bar"></div><div class="cursor-glow"></div><div data-nav></div>
+  <main>
+    <section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Inicio</a> / Contacto</div><span class="kicker">Contacto</span><h1 class="title-xl" style="margin-top:18px;max-width:900px">Cuéntame qué necesitas diseñar y qué resultado quieres conseguir.</h1></div></section>
+    <section class="section compact">
+      <div class="container contact-grid">
+        <aside class="card contact-card reveal">
+          <h2 class="title-md">Información directa</h2>
+          <p class="text-muted" style="line-height:1.6">Cambia WhatsApp, email, Instagram y ubicación en <code>assets/js/config.js</code>.</p>
+          <ul class="contact-list" data-contact-info></ul>
+          <div class="hero-actions"><a class="btn primary full" data-whatsapp data-message="Hola Oliver, quiero una propuesta de diseño gráfico.">Abrir WhatsApp</a></div>
+        </aside>
+        <form class="card contact-card form reveal delay-2" data-contact-form>
+          <div class="form-row">
+            <div class="field"><label for="name">Nombre</label><input id="name" name="name" type="text" placeholder="Tu nombre" required></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="tu@email.com"></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="service">Servicio</label><select id="service" name="service"><option>Branding</option><option>Creativos para redes y ads</option><option>Packaging</option><option>Landing page</option><option>Dirección visual con IA</option><option>Auditoría visual</option></select></div>
+            <div class="field"><label for="budget">Presupuesto estimado</label><select id="budget" name="budget"><option>A definir</option><option>$150 - $300</option><option>$300 - $650</option><option>$650+</option></select></div>
+          </div>
+          <div class="field"><label for="message">Mensaje</label><textarea id="message" name="message" placeholder="Describe tu proyecto, marca, objetivo y fecha ideal."></textarea></div>
+          <button class="btn primary full" type="submit">Enviar por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <div data-footer></div><script src="assets/js/config.js"></script><script src="assets/js/app.js"></script>
+</body>
+</html>
